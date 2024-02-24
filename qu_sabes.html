@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>¿Qué sabes? | Algoritmos . Como pensar de forma logica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Elias Hernández Sánchez" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-1"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header"  style="background-image: url(logoCipacc.jpg); background-repeat: no-repeat;"><div id="headerContent" align="center">Algoritmos . Como pensar de forma logica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li id="active"><a href="qu_sabes.html" class="active no-ch">¿Qué sabes?</a></li>
+   <li><a href="qu_es.html" class="daddy">¿Qué es?</a>
+   <ul class="other-section">
+      <li><a href="metodologa_de_solucin_de_problemas.html" class="no-ch">Metodología de solución de problemas</a></li>
+      <li><a href="caractersticas_de_los_algoritmos.html" class="no-ch">Características de los algoritmos</a></li>
+      <li><a href="representacin_de_los_algoritmos.html" class="no-ch">Representación de los algoritmos</a></li>
+      <li><a href="lenguajes_de_programacin.html" class="no-ch">Lenguajes de Programación</a></li>
+   </ul>
+   </li>
+   <li><a href="jugamos.html" class="no-ch">¿Jugamos?</a></li>
+   <li><a href="qu_aprendi.html" class="no-ch">¿Qué aprendi?</a></li>
+   <li><a href="apto_para_el_reto.html" class="no-ch">¿Apto para el reto?</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="qu_es.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecorationNO"><h1 id="nodeTitleNO"></h1></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice em_iDevice_question" id="id18">
+<script type="text/javascript">/*<![CDATA[*/
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 3;
+var key1 = 3;
+var key2 = 3;
+var key3 = 1;
+var key4 = 3;
+function getAnswer()
+        {
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm18").key0b18[i].checked)
+               {
+                  question0 = document.getElementById("quizForm18").key0b18[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm18").key1b18[i].checked)
+               {
+                  question1 = document.getElementById("quizForm18").key1b18[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm18").key2b18[i].checked)
+               {
+                  question2 = document.getElementById("quizForm18").key2b18[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm18").key3b18[i].checked)
+               {
+                  question3 = document.getElementById("quizForm18").key3b18[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm18").key4b18[i].checked)
+               {
+                  question4 = document.getElementById("quizForm18").key4b18[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+            if (question2 == key2)
+            {
+               rawScore++;
+            }
+            if (question3 == key3)
+            {
+               rawScore++;
+            }
+            if (question4 == key4)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            var id = "18";
+            document.getElementById("quizForm"+id).submitB.disabled = true;
+            var s = document.getElementById("quizFormScore"+id);
+                        var msg_str ="Su puntuación es %d%%";            msg_str = msg_str.replace("%d",actualScore).replace("%%","%");            if (s) { s.innerHTML = "<div class='feedback'><p>"+msg_str+"</p></div>"; } else { alert(msg_str); }
+           
+        }
+    /*]]>*/</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Por favor seleccione una respuesta que consideres correcta para cada pregunta</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm18" id="quizForm18" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-18" value="60" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b18" class="block iDevice_content">
+<p>¿Cómo explicarías el significado de la palabra “problema”?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b181" class="sr-av"><a href="#answer-key0b181">Opción 1</a></label><input type="radio" name="key0b18" id="key0b181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b181">
+<div id="taoptionAnswer0q0b18" class="block iDevice_content">
+<p>Es un término que sólo es utilizado en matemáticas, física y química.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b182" class="sr-av"><a href="#answer-key0b182">Opción 2</a></label><input type="radio" name="key0b18" id="key0b182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b182">
+<div id="taoptionAnswer1q0b18" class="block iDevice_content">
+<p>Es una palabra que sólo utilizan los investigadores o científicos</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b183" class="sr-av"><a href="#answer-key0b183">Opción 3</a></label><input type="radio" name="key0b18" id="key0b183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b183">
+<div id="taoptionAnswer2q0b18" class="block iDevice_content">
+<p>Es un hecho, trabajo o planteamiento difícil de realizar y no tiene solución.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b184" class="sr-av"><a href="#answer-key0b184">Opción 4</a></label><input type="radio" name="key0b18" id="key0b184" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b184">
+<div id="taoptionAnswer3q0b18" class="block iDevice_content">
+<p>Es un hecho, trabajo o planteamiento que es difícil de realizar y puede tener o no solución</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b18" class="block iDevice_content">
+<p>¿Qué es un algoritmo?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b181" class="sr-av"><a href="#answer-key1b181">Opción 1</a></label><input type="radio" name="key1b18" id="key1b181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b181">
+<div id="taoptionAnswer0q1b18" class="block iDevice_content">
+<p>Un problema por resolver.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b182" class="sr-av"><a href="#answer-key1b182">Opción 2</a></label><input type="radio" name="key1b18" id="key1b182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b182">
+<div id="taoptionAnswer1q1b18" class="block iDevice_content">
+<p>Un diagrama que hace evidente un problema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b183" class="sr-av"><a href="#answer-key1b183">Opción 3</a></label><input type="radio" name="key1b18" id="key1b183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b183">
+<div id="taoptionAnswer2q1b18" class="block iDevice_content">
+<p>Un esquema que muestra procesos de un problema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b184" class="sr-av"><a href="#answer-key1b184">Opción 4</a></label><input type="radio" name="key1b18" id="key1b184" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b184">
+<div id="taoptionAnswer3q1b18" class="block iDevice_content">
+<p>Un conjunto de pasos ordenados que sirven para resolver un problema</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b18" class="block iDevice_content">
+<p>Una metodología es:</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b181" class="sr-av"><a href="#answer-key2b181">Opción 1</a></label><input type="radio" name="key2b18" id="key2b181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b181">
+<div id="taoptionAnswer0q2b18" class="block iDevice_content">
+<p>Un problema resuelto.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b182" class="sr-av"><a href="#answer-key2b182">Opción 2</a></label><input type="radio" name="key2b18" id="key2b182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b182">
+<div id="taoptionAnswer1q2b18" class="block iDevice_content">
+<p>La aplicación de un método.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b183" class="sr-av"><a href="#answer-key2b183">Opción 3</a></label><input type="radio" name="key2b18" id="key2b183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b183">
+<div id="taoptionAnswer2q2b18" class="block iDevice_content">
+<p>Un proceso que se lleva a cabo sólo en la ciencia.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b184" class="sr-av"><a href="#answer-key2b184">Opción 4</a></label><input type="radio" name="key2b18" id="key2b184" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b184">
+<div id="taoptionAnswer3q2b18" class="block iDevice_content">
+<p>Un conjunto de procedimientos descritos con claridad.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b18" class="block iDevice_content">
+<p>¿Qué es un diagrama de flujo (DF)?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b181" class="sr-av"><a href="#answer-key3b181">Opción 1</a></label><input type="radio" name="key3b18" id="key3b181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b181">
+<div id="taoptionAnswer0q3b18" class="block iDevice_content">
+<p>La descripción de un problema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b182" class="sr-av"><a href="#answer-key3b182">Opción 2</a></label><input type="radio" name="key3b18" id="key3b182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b182">
+<div id="taoptionAnswer1q3b18" class="block iDevice_content">
+<p>La representación gráfica de un proceso.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b183" class="sr-av"><a href="#answer-key3b183">Opción 3</a></label><input type="radio" name="key3b18" id="key3b183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b183">
+<div id="taoptionAnswer2q3b18" class="block iDevice_content">
+<p>La representación gráfica de un problema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b184" class="sr-av"><a href="#answer-key3b184">Opción 4</a></label><input type="radio" name="key3b18" id="key3b184" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b184">
+<div id="taoptionAnswer3q3b18" class="block iDevice_content">
+<p>Los pasos descriptivos de una metodología.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b18" class="block iDevice_content">
+<p>¿Qué es un lenguaje de programación?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b181" class="sr-av"><a href="#answer-key4b181">Opción 1</a></label><input type="radio" name="key4b18" id="key4b181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b181">
+<div id="taoptionAnswer0q4b18" class="block iDevice_content">
+<p>Son datos asignados a un elemento, los cuales cambian cuantas veces sea necesario durante el desarrollo<br />del algoritmo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b182" class="sr-av"><a href="#answer-key4b182">Opción 2</a></label><input type="radio" name="key4b18" id="key4b182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b182">
+<div id="taoptionAnswer1q4b18" class="block iDevice_content">
+<p>Secuencia de operaciones necesarias para llegar a la solución de un problema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b183" class="sr-av"><a href="#answer-key4b183">Opción 3</a></label><input type="radio" name="key4b18" id="key4b183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b183">
+<div id="taoptionAnswer2q4b18" class="block iDevice_content">
+<p>Conjunto finito de instrucciones o pasos que sirven para ejecutar una tarea o resolver un problema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b184" class="sr-av"><a href="#answer-key4b184">Opción 4</a></label><input type="radio" name="key4b18" id="key4b184" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b184">
+<div id="taoptionAnswer3q4b18" class="block iDevice_content">
+<p>Es un conjunto de símbolos y códigos usados para orientar la programación de estructuras en el desarrollo de la solución de un problema.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore18"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="qu_es.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

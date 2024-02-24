@@ -1,0 +1,52 @@
+{
+  "title": "ALGORITMOS",
+  "date": "22/01/23",
+  "areaCodes": [
+    "mat",
+    "tec"
+  ],
+  "areas": {
+    "es": "Matemáticas, Tecnología"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "levels": {
+    "es": "Bachillerato (16-18)"
+  },
+  "description": {},
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "algoritmos.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 15,
+  "totalSize": 12848728,
+  "files": [
+    "algoritmos.jclic",
+    "algoritmos.jclic.js",
+    "cicliclas.png",
+    "condicionales.png",
+    "desarrollosolucion.gif",
+    "df.gif",
+    "entrada.png",
+    "favicon.ico",
+    "finito.gif",
+    "icon-192.png",
+    "icon-72.png",
+    "identificarproblema.gif",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "pseudocodigo.gif",
+    "salida.png",
+    "secuenciales.png"
+  ]
+}
